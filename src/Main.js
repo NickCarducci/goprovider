@@ -99,6 +99,9 @@ class App extends React.Component {
         <br />
         Addicted to startup pandemic research. There’s no demand bae.
         Complementary to made-demand.
+        <br />
+        <br />
+        Guaranteed guarantee. Jury on one droplet arbiter
         <div
           style={{
             cursor: "pointer",
