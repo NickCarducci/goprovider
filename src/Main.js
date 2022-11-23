@@ -87,6 +87,18 @@ class App extends React.Component {
           position: "relative"
         }}
       >
+        Good will extraction, compulsory will
+        <br />
+        <br />
+        We like{space}
+        <a href="https://saverparty.xyz">squirrely</a>/squarely weed here -
+        multi level capital Ponzi . Man as anthropologically . If im not
+        mismaken. Altruistic brilliant tech guy not finance.. this was not
+        finance babe bro
+        <br />
+        <br />
+        Addicted to startup pandemic research. There’s no demand bae.
+        Complementary to made-demand.
         <div
           style={{
             cursor: "pointer",
