@@ -141,6 +141,8 @@ export default class Basic extends React.Component {
           cursor: "pointer"
         }}
       >
+        Second vote winning - penultimate shift voting
+        <hr />
         If a recession is a loss of real GDP’s shrink- and time-flation,
         expenses before income, and employment, how are people poorer? Isn't a
         recession of realized growth good for labor?{space}
@@ -347,7 +349,68 @@ export default class Basic extends React.Component {
             ERC-792 second simple example
           </a>
           .
+          {/*Approval instead of bundle assumes non voters approve the role 
+          non voters would rather destruct instead of alter
+
+          tragedian narcisism and lust or life
+
+          Thirsty Thursday
+
+          equal measure T0 labor contract compulsory will surrendered freedom to own rights
+
+          Are you asking sociological question with psych?
+
+          Are you scare for your life ir are you feeling guilty for how you feel so grateful now?
+
+          some say I'm a doomer
+
+          red blue ot air tried. She isn't a basement candidate, "just bloodshed"
+
+          huh that was ecess births lifetime ago
+
+          you are significant james . Unless you are retrying lmao
+
+          Truncated wholesale tax nj 2024 who boycotted credit first?
+
+          minimum approval == budget reconciliation
+
+          intentional advice stick to 
+
+          advice is sticky but not compulsory (T0)
+
+          those guys look under contract imbalance
+
+          not a basement candidate (need to search sam harris' basement)
+          
+          natural truths (mRNA, vaccine, or false/debris
+            
+            i will go to the mat on garbag collecting antibody,)
+
+            CMS free will
+
+            like maybe, unmeasured null confirm science fiction
+
+            a mechanic bill can be fixed (recovered), but you can't fix stupid
+
+            supply and demand can be marginally in balance! made-demand
+
+            The conflict of interest is a century of faulty science. An academic actuary news to be led to the crime scene.
+
+            public it to G-d. tach me to teach bro "anarchy is supreme ...order" government without state subjective moral
+
+            an objective governance
+
+            *died suddenly* t+/t0
+          */}
         </div>
+        a stateless government is an outlet mall{/**"paul blart" */}
+        <br />
+        <h3>Nonce minter bot</h3>
+        How can we generally trust blockchain nodes on a single load balancer?
+        I’ll be minting wei with no gas for nonce minter bot, if you can imagine
+        vault-co.in. Doesn’t an Ethereum facility rather than authority need to
+        generate a random nonce scope to prove a programmatic lost, stolen, or
+        forgotten wallet key transfer?
         <div
           style={{
             position: "fixed", //salt bank vaults royalty stewardship
