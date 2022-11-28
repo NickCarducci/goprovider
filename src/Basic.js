@@ -403,7 +403,10 @@ export default class Basic extends React.Component {
             *died suddenly* t+/t0
           */}
         </div>
-        a stateless government is an outlet mall{/**"paul blart" */}
+        a stateless government is an outlet mall{/**"paul blart" */ space}&bull;
+        {space}
+        Why shouldn’t tax payers pay for the government outright? ​I am not a
+        pro job politician
         <br />
         <h3>Nonce minter bot</h3>
         How can we generally trust blockchain nodes on a single load balancer?
