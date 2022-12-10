@@ -68,7 +68,7 @@ export default class Basic extends React.Component {
     }
   };
   componentWillUnmount = () => {
-    clearInterval(this.pamphlet);
+    clearTimeout(this.pamphlet);
     clearTimeout(this.starttime);
     clearTimeout(this.scrollTimeout);
     clearTimeout(this.resizeTimer);
@@ -433,7 +433,16 @@ export default class Basic extends React.Component {
         Why shouldn’t tax payers pay for the government outright? ​I am not a
         pro job politician
         <br />
-        <h3>Nonce minter bot</h3>
+        <h3>
+          Nonce minter bot:{space}
+          <a
+            style={{ color: "cornflowerblue" }}
+            href="https://github.com/NickCarducci/vault-coin"
+          >
+            don't trust me, trust Digital Ocean to deploy IP from github with
+            build[pack] logs
+          </a>
+        </h3>
         How can we generally trust blockchain nodes on a single load balancer?
         I’ll be minting wei with no gas for nonce minter bot, if you can imagine
         vault-co.in. Doesn’t an Ethereum facility rather than authority need to
@@ -454,3 +463,4 @@ export default class Basic extends React.Component {
     );
   }
 }
+
