@@ -154,6 +154,8 @@ export default class Basic extends React.Component {
           //bill me in a labor contract suit
         }}
       >
+        gift discount damages - thetaxparty.com
+        <br />
         <a href="https://saverparty.xyz">Micro finance</a>: industry specific
         payday,{space}
         <a href="https://thumbprint.us">prevent ticket scalping</a>
@@ -463,4 +465,3 @@ export default class Basic extends React.Component {
     );
   }
 }
-
