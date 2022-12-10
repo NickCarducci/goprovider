@@ -32,6 +32,9 @@ export default class Basic extends React.Component {
     this.starttime = setTimeout(() => {
       this.check(pathname);
     }, 500);
+    this.pamphlet = setInterval(() => {
+      this.setState({ pamphlet: !this.state.pamphlet });
+    }, 5000);
   };
   check = (pathname) => {
     if (pathname === "/plaintiff") {
@@ -65,6 +68,7 @@ export default class Basic extends React.Component {
     }
   };
   componentWillUnmount = () => {
+    clearTimeout(this.pamphlet);
     clearTimeout(this.starttime);
     clearTimeout(this.scrollTimeout);
     clearTimeout(this.resizeTimer);
@@ -138,9 +142,30 @@ export default class Basic extends React.Component {
           width: "100%",
           maxWidth: "600px",
           position: "relative",
-          cursor: "pointer"
+          cursor: "pointer" //shift ranks to approve. penultimate shift. non-binary ideas lmao untried pluralities,
+          //bipartisans voting for eachother but not to recuperate penultimate votes around
+          //disinflation is tapering, deflation is lower (totally)
+          //Explicit approval doesn't approve of non-reconciled budgets. plane is time to outcome and existence is a period itself
+          //Non-voters are the disapproving voters!!
+          //Bipartisans voting for eachother not to recuperate penultimate votes all around
+          //Non-binary ideas lmao
+          //Shift ranks to approve
+          //11/12 democracy of shift
+          //bill me in a labor contract suit
         }}
       >
+        <a href="https://saverparty.xyz">Micro finance</a>: industry specific
+        payday,{space}
+        <a href="https://thumbprint.us">prevent ticket scalping</a>
+        {space}like airlines 10 person no name and implausible use leases
+        <br />
+        <br />
+        <div style={{ float: "right", transition: ".3s ease-out" }}>
+          {this.state.pamphlet ? "bankingisnot.biz" : "nick@vaults.biz"}
+        </div>
+        <h4 style={{ margin: "4px 0px" }}>
+          Isn't a job inflationary and work deflationary?
+        </h4>
         Second vote winning - penultimate shift voting
         <hr />
         If a recession is a loss of real GDP’s shrink- and time-flation,
