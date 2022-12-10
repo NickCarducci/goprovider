@@ -68,7 +68,7 @@ export default class Basic extends React.Component {
     }
   };
   componentWillUnmount = () => {
-    clearTimeout(this.pamphlet);
+    clearInterval(this.pamphlet);
     clearTimeout(this.starttime);
     clearTimeout(this.scrollTimeout);
     clearTimeout(this.resizeTimer);
