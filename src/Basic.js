@@ -8,7 +8,9 @@ export default class Basic extends React.Component {
     var parser = new UAParser();
     const name = parser.getBrowser().name;
     console.log(name);
+    let i = 0;
     this.state = {
+      i,
       onFactors: true,
       trigger: false,
       browser: name,
@@ -33,7 +35,13 @@ export default class Basic extends React.Component {
       this.check(pathname);
     }, 500);
     this.pamphlet = setInterval(() => {
-      this.setState({ pamphlet: !this.state.pamphlet });
+      this.setState({ pamphlet: !this.state.pamphlet, i: this.state.i + 1 });
+
+      if (this.state.i > 4) {
+        if (this.state.hovered)
+          return this.setState({ i: 0, endpamphlet: false, hovered: false });
+        this.setState({ endpamphlet: true });
+      }
     }, 5000);
   };
   check = (pathname) => {
@@ -181,8 +189,30 @@ export default class Basic extends React.Component {
         {space}like airlines 10 person no name and implausible use leases
         <br />
         <br />
-        <div style={{ float: "right", transition: ".3s ease-out" }}>
-          {this.state.pamphlet ? "bankingisnot.biz" : "nick@vaults.biz"}
+        <div
+          onMouseEnter={() => {
+            this.setState({ hovered: true });
+          }}
+          style={{
+            float: "right",
+            transition: ".3s ease-out",
+            fontSize: !this.state.endpamphlet ? "0px" : ""
+          }}
+        >
+          bankingisnot.biz
+          <br />
+          "nick@vaults.biz
+        </div>
+        <div
+          style={{
+            float: "right",
+            transition: ".3s ease-out",
+            fontSize: this.state.endpamphlet ? "0px" : ""
+          }}
+        >
+          {!this.state.endpamphlet && this.state.pamphlet
+            ? "bankingisnot.biz"
+            : "nick@vaults.biz"}
         </div>
         <h4 style={{ margin: "4px 0px" }}>
           Isn't a job inflationary and work deflationary?
@@ -484,4 +514,3 @@ export default class Basic extends React.Component {
     );
   }
 }
-
