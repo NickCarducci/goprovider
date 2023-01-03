@@ -154,13 +154,27 @@ export default class Basic extends React.Component {
           //bill me in a labor contract suit
         }}
       >
-        <a href="https://www.reddit.com/r/realeconomics/comments/zhy3r1/why_is_confidence_in_american_banks_at_27_in_2022/">
-          prisoners' dilemma
-        </a>
-        {space}terrorism. gift discount damages - thetaxparty.com
-        <br />
+        {" "}
+        If invoices were claimed by third party donee beneficiary in a
+        collateral reverse payable public mediation for liabilities and in kind
+        reparations, for industry payday or work for another, insurance will be
+        warehousing refrigerated non-perishables with a monthly plausible use
+        schedule for rewarded and/or ducted pays. Until then, insurance can save
+        you from being involved in this other crime of stolen purchase with
+        escrow.
+        <h2>
+          <a href="https://www.reddit.com/r/realeconomics/comments/zhy3r1/why_is_confidence_in_american_banks_at_27_in_2022/">
+            prisoners' dilemma
+          </a>
+        </h2>
+        <h3>terrorism. gift discount damages - thetaxparty.com</h3>
         rollover insurance.
         <br />
+        Health insurance only either covers invoices or general charges to tax
+        escrow, both of which are stolen purchases - it doesn’t prevent loss.
+        <br />
+        Why should tax penalties be used instead of sanctions?
+        <hr />
         <a href="https://saverparty.xyz">Micro finance</a>: industry specific
         payday,{space}
         <a href="https://thumbprint.us">prevent ticket scalping</a>
@@ -470,3 +484,4 @@ export default class Basic extends React.Component {
     );
   }
 }
+
