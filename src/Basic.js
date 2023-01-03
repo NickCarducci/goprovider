@@ -163,11 +163,21 @@ export default class Basic extends React.Component {
         }}
       >
         {" "}
-        If invoices were claimed by third party donee beneficiary in a
-        collateral reverse payable public mediation for liabilities and in kind
-        reparations, for industry payday or work for another, insurance will be
-        warehousing refrigerated non-perishables with a monthly plausible use
-        schedule for rewarded and/or ducted pays. Until then, insurance can save
+        <i>
+          If invoices were claimed by third party donee beneficiary in a
+          collateral reverse payable public mediation for liabilities and in
+          kind reparations, for industry payday or work for another
+        </i>
+        , insurance will be
+        {space}
+        <span style={{ color: "cornflowerblue" }}>
+          warehousing refrigerated non-perishables
+        </span>
+        {space}with a{space}
+        <span style={{ color: "firebrick" }}>
+          monthly plausible use schedule
+        </span>
+        {space}for rewarded and/or ducted pays. Until then, insurance can save
         you from being involved in this other crime of stolen purchase with
         escrow.
         <h2>
@@ -514,3 +524,4 @@ export default class Basic extends React.Component {
     );
   }
 }
+
