@@ -167,6 +167,20 @@ export default class Basic extends React.Component {
           multilevelcapital.com
         </h4>
         <i style={{ color: "grey" }}>
+          Can't the Treasury remit deficits to the Federal Reserve to pay debt
+          fiscally?{space}
+          <i
+            style={{
+              color: "lightsteelblue"
+            }}
+          >
+            Does a lower USDC mean its capital can benefit as the Federal
+            Reserve buys 2-10?
+          </i>
+        </i>
+        <br />
+        <br />
+        <i style={{ color: "grey" }}>
           Do credit unions take care of people or their benefactors?{space}
           <i
             style={{
