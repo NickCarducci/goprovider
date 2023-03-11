@@ -122,6 +122,7 @@ export default class Basic extends React.Component {
       }, 600);
     }
   };
+  //
   render() {
     const handleScollImgError = (e) => {
       if (e.message) {
@@ -162,8 +163,24 @@ export default class Basic extends React.Component {
           //bill me in a labor contract suit
         }}
       >
-        {" "}
-        <i>
+        <h4 style={{ float: "right", margin: "4px 0px" }}>
+          multilevelcapital.com
+        </h4>
+        <i style={{ color: "grey" }}>
+          Do credit unions take care of people or their benefactors?{space}
+          <i
+            style={{
+              color: "lightsteelblue"
+            }}
+          >
+            Is a Navy Federal Credit Union nominal coupon consumer protected
+            billing constitutional as a fiscal recession deficit tax hike
+            advance would otherwise be?
+          </i>
+        </i>
+        <br />
+        <br />
+        <i style={{ color: "lightslategray" }}>
           If invoices were claimed by third party donee beneficiary in a
           collateral reverse payable public mediation for liabilities and in
           kind reparations, for industry payday or work for another
@@ -177,9 +194,15 @@ export default class Basic extends React.Component {
         <span style={{ color: "firebrick" }}>
           monthly plausible use schedule
         </span>
-        {space}for rewarded and/or ducted pays. Until then, insurance can save
-        you from being involved in this other crime of stolen purchase with
-        escrow.
+        {space}for rewarded and/or ducted pays.{space}
+        <i
+          style={{
+            color: "yellowgreen"
+          }}
+        >
+          Until then, insurance can save you from being involved in this other
+          crime of stolen purchase with escrow.
+        </i>
         <h2>
           <a href="https://www.reddit.com/r/realeconomics/comments/zhy3r1/why_is_confidence_in_american_banks_at_27_in_2022/">
             prisoners' dilemma
@@ -524,4 +547,3 @@ export default class Basic extends React.Component {
     );
   }
 }
-
