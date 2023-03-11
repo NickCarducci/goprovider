@@ -228,7 +228,17 @@ export default class Basic extends React.Component {
         Health insurance only either covers invoices or general charges to tax
         escrow, both of which are stolen purchases - it doesn’t prevent loss.
         <br />
-        Why should tax penalties be used instead of sanctions?
+        <i style={{ color: "grey" }}>
+          Why should tax penalties be used instead of sanctions?{space}
+          <i
+            style={{
+              color: "lightsteelblue"
+            }}
+          >
+            Do people that make threats want their ransom hostage victims harmed
+            or whole in any case?
+          </i>
+        </i>
         <hr />
         <a href="https://saverparty.xyz">Micro finance</a>: industry specific
         payday,{space}
