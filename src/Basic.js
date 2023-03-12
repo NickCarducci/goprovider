@@ -166,6 +166,13 @@ export default class Basic extends React.Component {
         <h4 style={{ float: "right", margin: "4px 0px" }}>
           multilevelcapital.com
         </h4>
+        Can an insurance company advertise saving money relatively to one
+        another given they only cover benefits for factors of production instead
+        of produce anything themselves? Does Aspen Dental save consumers money
+        instead of themselves by pricing better deals for those without
+        insurance?
+        <br />
+        <br />
         <i style={{ color: "grey" }}>
           Can't the Treasury remit deficits to the Federal Reserve to pay debt
           fiscally?{space}
@@ -571,3 +578,4 @@ export default class Basic extends React.Component {
     );
   }
 }
+
